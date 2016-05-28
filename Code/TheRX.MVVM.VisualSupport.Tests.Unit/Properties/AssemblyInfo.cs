@@ -6,11 +6,10 @@ using System.Runtime.InteropServices;
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
 [assembly: AssemblyTitle("TheRX.MVVM.VisualSupport.Tests.Unit")]
-[assembly: AssemblyDescription("")]
+[assembly: AssemblyDescription("Tests for The RX MVVM base classes.")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("Capita")]
 [assembly: AssemblyProduct("TheRX.MVVM.VisualSupport.Tests.Unit")]
-[assembly: AssemblyCopyright("Copyright © Capita 2015")]
+[assembly: AssemblyCopyright("Copyright © TheRX 2016")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 
