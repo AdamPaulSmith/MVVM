@@ -9,8 +9,9 @@
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>TheRX.MVVM.VisualSupport.Tests.Unit</RootNamespace>
     <AssemblyName>TheRX.MVVM.VisualSupport.Tests.Unit</AssemblyName>
-    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.7.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -72,13 +73,13 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\TheRX.MVVM.VisualSupport\TheRX.MVVM.VisualSupport.csproj">
-      <Project>{01F670D5-1B4C-472F-8EC4-C65D62B23054}</Project>
-      <Name>TheRX.MVVM.VisualSupport</Name>
-    </ProjectReference>
+    <Service Include="{82A7F48D-3B50-4B1E-B82E-3ADA8210C358}" />
   </ItemGroup>
   <ItemGroup>
-    <Service Include="{82A7F48D-3B50-4B1E-B82E-3ADA8210C358}" />
+    <ProjectReference Include="..\TheRX.MVVM.VisualSupport\TheRX.MVVM.VisualSupport.csproj">
+      <Project>{74a0b96e-fa48-45c3-887c-076209e06c48}</Project>
+      <Name>TheRX.MVVM.VisualSupport</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
